@@ -94,7 +94,7 @@ public class ContactController {
 	 */
 	@GetMapping("/showcontacts")
 	public ModelAndView showContacts() {
-		ModelAndView mav = new ModelAndView(ViewConstant.CONSTACTS);
+		ModelAndView mav = new ModelAndView(ViewConstant.CONTACTS);
 		
 		User user = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
 		mav.addObject("username", user.getUsername());

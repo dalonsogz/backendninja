@@ -7,10 +7,10 @@ package com.udemy.constant;
 public class ViewConstant {
 
 	/** The Constant CONTACT_FORM. */
-	public static final String CONTACT_FORM= "contactForm";
+	public static final String CONTACT_FORM= "gamesForm";
 	
-	/** The Constant CONSTACTS. */
-	public static final String CONSTACTS= "contacts";
+	/** The Constant CONTACTS. */
+	public static final String CONTACTS= "games";
 	
 	/** The Constant LOGIN. */
 	public static final String LOGIN= "login";
